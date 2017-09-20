@@ -9,8 +9,8 @@ date: 2017-09-18
 
 This is what the Toporgraphy map looks like:
  
-![Drawing A](DungLe13.github.io/assets/whole-map.png)
+![Drawing A]({{ site.url }}/assets/whole-map.png)
  
 A closer look into markers and popups:
 
-![Drawing B](DungLe13.github.io/assets/DungMap-wk2.png)
+![Drawing B]({{ site.url }}/assets/DungMap-wk2.png)
