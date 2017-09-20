@@ -13,4 +13,4 @@ This is what the Toporgraphy map looks like:
  
 A closer look into markers and popups:
 
-![Drawing B](https://github.com/DungLe13/DungLe13.github.io/blob/master/images/DungMap-wk2.png)
+![Drawing B](DungLe13.github.io/assets/DungMap-wk2.png)
