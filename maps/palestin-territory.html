@@ -1,0 +1,88 @@
+<!-- Mapbox documentation link below -->
+<!-- https://www.mapbox.com/mapbox.js/api/v3.1.1/l-control/ -->
+<!DOCTYPE html>
+
+<head>
+    <meta charset=utf-8 />
+    <title> Palestin-Israel: A divided war </title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet'>
+    <link href='marker-styles.css' rel='stylesheet'>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+
+    L.mapbox.accessToken = 'pk.eyJ1IjoiZGxlMTMxMCIsImEiOiJjajRkM2xoYW4waWFtMnFydDR2anFmd2UwIn0.GRuF5rGA1C6xXftwjdw-oQ';
+
+    // Set the marker rotation
+    L.RotatedMarker = L.Marker.extend({
+        options: { angle: 0 },
+        _setPos: function(pos) {
+            L.Marker.prototype._setPos.call(this, pos);
+            if (L.DomUtil.TRANSFORM) {
+                this._icon.style[L.DomUtil.TRANSFORM] += ' rotate(' + this.options.angle + 'deg)';
+            } else if (L.Browser.ie) {
+                var rad = this.options.angle * L.LatLng.DEG_TO_RAD,
+                costheta = Math.cos(rad),
+                sintheta = Math.sin(rad);
+                this._icon.style.filter += ' progid:DXImageTransform.Microsoft.Matrix(sizingMethod=\'auto expand\', M11=' + costheta + ', M12=' + (-sintheta) + ', M21=' + sintheta + ', M22=' + costheta + ')';
+            }
+        }
+    });
+    L.rotatedMarker = function(pos, options) {
+        return new L.RotatedMarker(pos, options)
+    };
+
+    var map = L.map('map').setView([31.4368, 34.7669], 8);
+
+    // Add the airplane marker to the view
+    var marker = L.rotatedMarker(new L.LatLng(31.7962, 35.0352), {
+        icon: L.divIcon({
+            className: 'svg-marker',
+            html: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 15 15"><path d=M12.5547,1c-2.1441,0-5.0211,1.471-6.9531,4H4C2.8427,5,2.1794,5.8638,1.7227,6.7773L1.1113,8h1.4434H4l1.5,1.5L7,11v1.4453v1.4434l1.2227-0.6113C9.1362,12.8206,10,12.1573,10,11V9.3984c2.529-1.932,4-4.809,4-6.9531V1H12.5547z M10,4c0.5523,0,1,0.4477,1,1l0,0c0,0.5523-0.4477,1-1,1l0,0C9.4477,6,9,5.5523,9,5v0C9,4.4477,9.4477,4,10,4L10,4z M3.5,10L3,10.5C2.2778,11.2222,2,13,2,13s1.698-0.198,2.5-1L5,11.5L3.5,10z"/></svg>',
+            iconSize: [25, 25],
+        }), draggable: true
+    });
+
+    marker.addTo(map);
+
+    var direction = 0, manual = false;
+
+    // Set icon movement
+    window.setInterval(function() {
+        var ll = marker.getLatLng();
+        ll.lat += Math.cos(direction) / 250;
+        ll.lng += Math.sin(direction) / 250;
+        marker.options.angle = direction * (180 / Math.PI);
+        marker.setLatLng(ll);
+        if (!manual && Math.random() > 0.95) {
+            direction += (Math.random() - 0.5) / 2;
+        }
+    }, 10);
+
+    // Add manual control of the airplane with left and right arrow keys, just because
+    document.body.addEventListener('keydown', function(e) {
+        if (e.which == 37) {
+            direction -= 0.1; manual = true;
+        }
+        if (e.which == 39) {
+            direction += 0.1; manual = true;
+        }
+    }, true);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+        attribution:'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
+    }).addTo(map);
+
+    omnivore.geojson('map.geojson').addTo(map);
+
+    </script>
+</body>
+
+</html>
