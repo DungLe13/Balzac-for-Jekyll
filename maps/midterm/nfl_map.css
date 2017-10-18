@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
+
+html {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#mapid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 72vw;
+}
+
+.right-side-menu {
+  width: 28vw;
+  float: right;
+}
+
+#title h2 {
+  position: relative;
+  left: 25px;
+  top: -10px;
+}
+
+#title p {
+  position: relative;
+  top: -20px;
+  left: 170px;
+}
+
+#description h3 {
+  position: relative;
+  top: -10px;
+  left: 130px;
+}
+
+#description p {
+  width: 25vw;
+  line-height: 150%;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+
+.result h3 {
+  position: relative;
+  top: 15px;
+  left: 60px;
+}
+
+.result img {
+  margin-top: 20px;
+  width: 29vw;
+}
+
+.colors h3 {
+  position: relative;
+  top: 15px;
+  left: 160px;
+}
+
+.colors p {
+    position: relative;
+    top: 20px;
+    left: 200px;
+    margin-bottom: 30px;
+}
+
+.colors #patriots {
+    position: absolute;
+    top: 705px;
+    right: 300px;
+    width: 60px;
+    height: 30px;
+    background: #252B3B;
+}
+
+.colors #jets {
+    position: absolute;
+    top: 750px;
+    right: 300px;
+    width: 60px;
+    height: 30px;
+    background: #006037;
+}
+
+.colors #halftime {
+    position: absolute;
+    top: 795px;
+    right: 300px;
+    width: 60px;
+    height: 30px;
+    background: #D4AF37;
+}
+
+.colors #tie-match {
+    position: absolute;
+    top: 840px;
+    right: 300px;
+    width: 60px;
+    height: 30px;
+    background: #21B6A8;
+}
+
+/* SLIDER STYLE */
+#play-button {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    background: #f08080;
+    padding-right: 26px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0 12px;
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 18px;
+    font-family: serif;
+}
+
+#prev-button {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: #f08080;
+    padding-right: 26px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0 12px;
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 16px;
+    font-family: serif;
+}
+
+#next-button {
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    background: #f08080;
+    padding-right: 26px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0 12px;
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 16px;
+    font-family: serif;
+}
+
+#slidecontainer {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 100%;
+}
+
+#slidertext p:first-child {
+    position: absolute;
+    top: 70px;
+    left: 400px;
+    width: 50px;
+    text-align: center;
+}
+
+#slidertext p:nth-child(2) {
+    position: absolute;
+    top: -18px;
+    left: 510px;
+    width: 50px;
+    text-align: center;
+}
+
+#slidertext p:nth-child(3) {
+    position: absolute;
+    top: 70px;
+    left: 630px;
+    width: 50px;
+    text-align: center;
+}
+
+#slidertext p:nth-child(4) {
+    position: absolute;
+    top: -18px;
+    left: 740px;
+    width: 50px;
+    text-align: center;
+}
+
+#slidertext p:nth-child(5) {
+    position: absolute;
+    top: 70px;
+    left: 860px;
+    width: 50px;
+    text-align: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 700px;
+    height: 25px;
+    background: #d5a2a2;
+    outline: none;
+    border-radius: 5px;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}

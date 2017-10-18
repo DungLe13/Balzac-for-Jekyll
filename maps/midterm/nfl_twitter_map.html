@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title> NFL on Twitter </title>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js'></script>
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" type="text/css" href="nfl_map.css">
+</head>
+
+<body>
+    <div id="mapid" class="mapboxgl-map"></div>
+
+    <div id="slideandbuttons">
+        <button id="prev-button">Prev</button>
+        <button id="play-button">Play</button>
+        <button id="next-button">Next</button>
+
+        <div id="slidecontainer">
+            <input type="range" min="1" max="7" value="1" class="slider" id="myRange">
+        </div>
+
+        <div id="slidertext">
+            <p>end of first quarter</p>
+            <p>end of second quarter</p>
+            <p>end of halftime break</p>
+            <p>end of third quarter</p>
+            <p>end of fourth quarter</p>
+        </div>
+    </div>
+
+    <div class="right-side-menu">
+        <div id="title">
+            <h2> National Football League on Twitter </h2>
+            <p> by Dung Le </p>
+        </div>
+
+        <div id="description">
+            <h3> Project Description </h3>
+            <p><em>National Football League on Twitter</em> is a project that illustrates how Twitter's users feel and react before, during and after the football match between the New England Patriots and the New York Jets. The football match lasted for more than an hour, from 1:00 pm EST on Sunday, October 15th to 2:20 pm on the same day. The data is streamed using Twitter API from Sunday, October 15th 12:50 pm EST to Monday, October 16th 1:20 am EST. Only tweets with geodata tagged are presented in the map.</p>
+        </div>
+
+        <div class="result">
+            <h3> New England Patriots - New York Jets </h3>
+            <img src="result.png" alt="Final Score">
+        </div>
+
+        <div class="colors">
+            <h3>Color Palette</h3>
+            <div id="patriots"></div>
+            <p>Patriots Rush Color</p>
+            <div id="jets"></div>
+            <p>Jets Rush Color</p>
+            <div id="halftime"></div>
+            <p>Halftime Color</p>
+            <div id="tie-match"></div>
+            <p>Tied Match Color</p>
+        </div>
+    </div>
+
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQueryUI Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- My JavaScript files -->
+    <script type="text/javascript" src="nfl_script.js"></script>
+    <!-- <script type="text/javascript" src="nfl_slider.js"></script> -->
+</body>
+
+</html>

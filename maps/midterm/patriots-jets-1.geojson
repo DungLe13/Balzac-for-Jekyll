@@ -1,0 +1,274 @@
+{"type":"FeatureCollection","features":[  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.0743,
+        40.8135
+      ]
+    },
+    "properties": {
+      "tweet_body": "First #JETS game in a long time! - Drinking a Wolf Pup Session IPA @ Hertz Gold Suites - https://t.co/2p26oZMnoK #photo",
+      "user": "John Grimes",
+      "time": "Sun Oct 15 16:57:20 +0000 2017",
+      "timestamp": "1508086640453"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.0747794,
+        40.8150951
+      ]
+    },
+    "properties": {
+      "tweet_body": "LETS GO JETS BABY!!! Like always, we've got all the football and wings you could want @ MetLife… https://t.co/vQJWrKSWUa",
+      "user": "Jake's Dilemma",
+      "time": "Sun Oct 15 17:01:16 +0000 2017",
+      "timestamp": "1508086876094"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.07280937,
+        40.81011007
+      ]
+    },
+    "properties": {
+      "tweet_body": "#LetsGoJets @nyjets @ NY Jets at Metlife Stadium https://t.co/b5nMjT8rld",
+      "user": "NYJ/BKN/NYM4LIFE",
+      "time": "Sun Oct 15 17:01:19 +0000 2017",
+      "timestamp": "1508086879052"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -112.23418823,
+        33.57145585
+      ]
+    },
+    "properties": {
+      "tweet_body": "Today, I cheer for the NY Jets. Let’s get a win for @garyvee!",
+      "user": "Mitchell",
+      "time": "Sun Oct 15 17:03:44 +0000 2017",
+      "timestamp": "1508087024017"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.07280937,
+        40.81011007
+      ]
+    },
+    "properties": {
+      "tweet_body": "#vip at the @nyjets @patriots game? #dontmindifido #perksofthejob… https://t.co/PwTSgJCG5c",
+      "user": "J",
+      "time": "Sun Oct 15 17:05:11 +0000 2017",
+      "timestamp": "1508087111975"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.07548123,
+        40.8136826
+      ]
+    },
+    "properties": {
+      "tweet_body": "Let's go...Jets?  Maybe? (@ MetLife Stadium - @mlstadium for New York Jets Pregame Hospitality) https://t.co/MblECaNF0e",
+      "user": "Lindsay Grant",
+      "time": "Sun Oct 15 17:06:17 +0000 2017",
+      "timestamp": "1508087177300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.07548123,
+        40.8136826
+      ]
+    },
+    "properties": {
+      "tweet_body": "Let's go...Jets?  Maybe? (@ MetLife Stadium - @mlstadium in East Rutherford, NJ) https://t.co/PjvhX2HfTB",
+      "user": "Lindsay Grant",
+      "time": "Sun Oct 15 17:07:59 +0000 2017",
+      "timestamp": "1508087279994"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.0747794,
+        40.8150951
+      ]
+    },
+    "properties": {
+      "tweet_body": "Beautiful day for some football #jets #patriots #metlife @ MetLife Stadium https://t.co/mMjvx0kSSV",
+      "user": "Lis Smith",
+      "time": "Sun Oct 15 17:09:31 +0000 2017",
+      "timestamp": "1508087371077"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -2.62934901,
+        53.80118483
+      ]
+    },
+    "properties": {
+      "tweet_body": "Great play. #Jets",
+      "user": "Oliver Banks",
+      "time": "Sun Oct 15 17:10:14 +0000 2017",
+      "timestamp": "1508087414995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.0747794,
+        40.8150951
+      ]
+    },
+    "properties": {
+      "tweet_body": "Great fall day for football. Patriots vs Jets. 😀🏈 #patriots #jets #nfl @ MetLife Stadium https://t.co/zn7Nmfy4uK",
+      "user": "Ryan Swartz",
+      "time": "Sun Oct 15 17:10:16 +0000 2017",
+      "timestamp": "1508087416345"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.0747794,
+        40.8150951
+      ]
+    },
+    "properties": {
+      "tweet_body": "Spending time with this handsome guy dannyferrara  Let’s go @nyjets 🏈 #Jets @ MetLife Stadium https://t.co/PQND8QAa3O",
+      "user": "Joseph Ferrara",
+      "time": "Sun Oct 15 17:10:41 +0000 2017",
+      "timestamp": "1508087441461"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.02239964,
+        40.64864865
+      ]
+    },
+    "properties": {
+      "tweet_body": "Would be soooo Jets not to punch this in",
+      "user": "David R.",
+      "time": "Sun Oct 15 17:11:35 +0000 2017",
+      "timestamp": "1508087495058"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -85.84865247,
+        39.93289133
+      ]
+    },
+    "properties": {
+      "tweet_body": "Josh McCown just marched down the field, and scored on the Patriots. MVP ALERT",
+      "user": "Kim Jong Dyl",
+      "time": "Sun Oct 15 17:12:44 +0000 2017",
+      "timestamp": "1508087564166"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.7738191,
+        33.23842669
+      ]
+    },
+    "properties": {
+      "tweet_body": "Here we go again, the @Patriots defense making a 38 year old Josh McCown look like an all-pro.  😕 #NEvsNYJ",
+      "user": "Curtis Galvin",
+      "time": "Sun Oct 15 17:13:53 +0000 2017",
+      "timestamp": "1508087633414"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.07548123,
+        40.8136826
+      ]
+    },
+    "properties": {
+      "tweet_body": "Lets go JETS (@ MetLife Stadium - @mlstadium in East Rutherford, NJ) https://t.co/Pk6qGCmr7l",
+      "user": "Brennan",
+      "time": "Sun Oct 15 17:14:17 +0000 2017",
+      "timestamp": "1508087657590"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -71.40313,
+        41.867297
+      ]
+    },
+    "properties": {
+      "tweet_body": "Hope Jets go up 28-0",
+      "user": "Jerry S.",
+      "time": "Sun Oct 15 17:15:52 +0000 2017",
+      "timestamp": "1508087752476"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -93.33861111,
+        45.03222222
+      ]
+    },
+    "properties": {
+      "tweet_body": "Sundays in the fall...\nMean it is time for football...\nGo Pats, go Pats, go!\n#patriots #gopats… https://t.co/EP3qd0WDV9",
+      "user": "Brandon Berger?",
+      "time": "Sun Oct 15 17:15:54 +0000 2017",
+      "timestamp": "1508087754549"
+    }
+  }
+]}
